@@ -26,7 +26,7 @@ function App() {
     color: #355b3e;
     font-size: 19px;
     font-weight: 700;
-    margin-top: 10%;
+    margin-top: 5%;
   `;
   const HeaderWelcomeMessage = styled.p`
     color: #58745e;
@@ -55,13 +55,55 @@ function App() {
   justify-content:space-between;
   align-items: center;
   color: #355b3e;
+  font-size:14.5px;
   `
   const CheckboxInput = styled.input`
   background-color:#355b3e;
+  margin-top:2%;
+  width:14px;
+  height:14px
   `
-  const Image = styled.img``;
+  const ForgotPassword = styled.p`
+  text-decoration: underline;
 
-  //Wrap the variable around the tag content.
+  `
+  const CallToAction = styled.div`
+  display:flex;
+  justify-content:space-between
+  `
+
+  const Button = styled.button`
+  width:180px;
+  height:48px;
+  border-radius:8px;
+  border:0px;
+  margin-top:8%;
+  background-color:white;
+  color:#029664;
+  border: 1px solid #029664;
+  `
+  const ButtonLogin = styled.button`
+  width:180px;
+  height:48px;
+  border-radius:8px;
+  border:0px;
+  margin-top:8%;
+  background-color:#029664;
+  color:white;
+  `
+const UnorderedList = styled.ul`
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:5% 0%;
+font-size:14.5px;
+color: #355b3e;
+`
+const List = styled.li`
+list-style:none;
+font-weight:600;
+`
+
   return (
     <MainContent>
       <Text>
@@ -90,9 +132,22 @@ function App() {
             />
             Remember me
           </label>
-            <p>Forgot password?</p>
+            <ForgotPassword>Forgot password?</ForgotPassword>
           </Options>
+          <CallToAction>
+          <ButtonLogin>Login</ButtonLogin>
+          <Button>Sign Up</Button>
+          </CallToAction>
         </Form>
+
+        <footer>
+        <UnorderedList>
+           <p>or login with </p>
+            <List>Facebook</List>
+            <List>Linked In</List>
+            <List>Google</List>
+           </UnorderedList>
+        </footer>
       </Text>
 
       <section className="image">
