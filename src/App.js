@@ -41,6 +41,7 @@ function App() {
     color: #355b3e;
     font-size: 14px;
     font-weight: 600;
+    margin-bottom:2%;
   `;
   const Input = styled.input`
     width: 422px;
