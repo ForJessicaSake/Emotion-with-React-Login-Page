@@ -6,7 +6,6 @@ import logo from "./Asserts/Logo.svg";
 import logo1 from "./Asserts/Logo1.svg";
 
 function App() {
-  const Container = styled.section``;
   const MainContent = styled.main`
     display: flex;
     display: flex;
@@ -56,7 +55,7 @@ function App() {
 
   const HeaderText = styled.h3`
     color: #355b3e;
-    width:80%;
+    width: 80%;
     font-size: 21px;
     font-weight: 700;
     margin-top: 2%;
@@ -171,7 +170,7 @@ function App() {
     }
   `;
   const Image = styled.img`
-    width: 100%;
+    width: 110%;
     padding-left: 5%;
     @media (max-width: 1024px) {
       width: 100%;
@@ -188,7 +187,7 @@ function App() {
     }
   `;
   return (
-    <Container>
+    <main>
       <Nav>
         <Logo src={logo} alt="Logo" />
         <Logo1 src={logo1} alt="Logo1" />
@@ -240,7 +239,7 @@ function App() {
           <Image src={bus} alt="a bus" />
         </ImgContainer>
       </MainContent>
-    </Container>
+    </main>
   );
 }
 export default App;
