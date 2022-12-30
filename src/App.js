@@ -58,8 +58,9 @@ function App() {
     border-radius: 8px;
     margin-bottom: 5%;
     padding: 0% 2%;
+    cursor:text;
     @media (max-width: 1024px) {
-      width: 350px ;
+      width: 345px ;
     }
   `;
   const Options = styled.div`
@@ -70,7 +71,7 @@ function App() {
     font-size: 14.5px;
     @media (max-width: 1024px) {
       font-size: 14px;
-      width:360px
+      width:355px
     }
   `;
   const CheckboxInput = styled.input`
@@ -78,6 +79,7 @@ function App() {
     margin-top: 2%;
     width: 14px;
     height: 14px;
+    cursor:pointer;
   `;
   const ForgotPassword = styled.p`
     text-decoration: underline;
@@ -86,7 +88,7 @@ function App() {
     display: flex;
     justify-content: space-between;
     @media (max-width: 1024px) {
-      width:360px
+      width:355px
     }
   `;
 
@@ -99,6 +101,7 @@ function App() {
     background-color: white;
     color: #029664;
     border: 1px solid #029664;
+    cursor:pointer;
     @media (max-width: 1024px) {
       width: 160px;
     }
@@ -111,6 +114,7 @@ function App() {
     margin-top: 8%;
     background-color: #029664;
     color: white;
+    cursor:pointer;
     @media (max-width: 1024px) {
       width: 160px;
     }
@@ -122,8 +126,9 @@ function App() {
     padding: 5% 0%;
     font-size: 14.5px;
     color: #355b3e;
+    cursor:pointer;
     @media (max-width: 1024px) {
-      width: 360px;
+      width: 355px;
     }
   `;
   const List = styled.li`
