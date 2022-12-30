@@ -8,7 +8,8 @@
   flex-direction: column-reverse;
   position: absolute;
   border: 1px solid black;
-  display: ;
+  display: flex;
+  justify-content: space-between;
 }
 
 .App-logo {
