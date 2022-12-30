@@ -5,6 +5,10 @@
   grid-template-columns: repeat(1,1fr);
   text-decoration: underline;
   list-style: none;
+  flex-direction: column-reverse;
+  position: absolute;
+  border: 1px solid black;
+  display: ;
 }
 
 .App-logo {
