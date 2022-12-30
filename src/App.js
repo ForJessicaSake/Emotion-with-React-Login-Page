@@ -56,16 +56,18 @@ function App() {
 
   const HeaderText = styled.h3`
     color: #355b3e;
-    font-size: 19px;
+    width:80%;
+    font-size: 21px;
     font-weight: 700;
-    margin-top: 5%;
+    margin-top: 2%;
+    line-height: 36px;
     @media (max-width: 1024px) {
       font-size: 19px;
     }
   `;
   const HeaderWelcomeMessage = styled.p`
     color: #58745e;
-    font-size: 13px;
+    font-size: 13.5px;
   `;
   const Form = styled.div`
     display: grid;
