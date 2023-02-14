@@ -1,4 +1,4 @@
-# Emotion with React
+# Emotion with React: Login Page
 
 ## About
 Check out my awesome GitHub repo! I whipped up a slick login page using Emotion (the CSS-in-JS library) and React. With Emotion's style API, this page is not only easy on the eyes but also super responsive. Take a look and let me know what you think!
